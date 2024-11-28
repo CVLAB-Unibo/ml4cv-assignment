@@ -1,5 +1,6 @@
 # Machine Learning for Computer Vision Assignment
-University of Bologna, A.Y. 2024–2025.
+University of Bologna, A.Y. 2024–2025.\
+francesco.ballerini4@unibo.it
 
 ---
 
@@ -54,7 +55,7 @@ Make sure to submit the assignment **before** you write to prof. Salti to schedu
 My evaluation of your work will be based on:
 1. **Qualitative results**, i.e. segmentation maps predicted by your model when given as input unseen images containing anomalous objects.
 2. **Quantitative results** (a.k.a. metrics), which, following the terminology of [[2](https://arxiv.org/abs/2108.04562)], you can divide into two subtasks:
-    * *Closed-set semantic segmentation*, i.e. semantic segmentation of non-anomalous objects, for which you shpuld use standard mIoU
+    * *Closed-set semantic segmentation*, i.e. semantic segmentation of non-anomalous objects, for which you should use standard mIoU.
     * *Anomaly segmentation*, i.e. detecting unexpected object at the pixel level, for which metrics you should use AUPR (a.k.a. AP).
 
     These metrics should guide you in the design and tuning of your model. Look into papers showing experiments on StreetHazards (e.g. [[1](https://arxiv.org/abs/1911.11132), [2](https://arxiv.org/abs/2108.04562), [4](https://arxiv.org/abs/2211.14512)]) to know the range of values you should strive for.
